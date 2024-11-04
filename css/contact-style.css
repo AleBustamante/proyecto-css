@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 250;
+  line-height: 1.7;
+}
+
+button {
+  background-color: #97c584;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: black;
+  border: solid;
+  border-color: #97c584;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: #97c584;
+}
+.top-menu {
+  list-style-type: none;
+  width: 92vw;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  color: white;
+  font-size: 1rem;
+  z-index: 2;
+  padding-top: 1%;
+}
+.top-menu-element {
+  padding: 1% 1% 1% 1%;
+}
+
+.top-menu a {
+  color: gray;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.top-menu a:hover {
+  color: white;
+}
+.top-menu a:visited {
+  color: gray;
+}
+
+.top-logo {
+  width: 90vw;
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 1rem;
+  z-index: 2;
+  padding-top: 2.7%;
+  padding-left: 4%;
+}
+
+.top-logo a {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.top-logo a:hover {
+  color: gray;
+}
+.top-logo a:visited {
+  color: white;
+}
+
+nav {
+  padding-bottom: 30vh;
+}
+
+#footer-title {
+  padding-left: 5%;
+  font-size: 4.5rem;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+.footer-right input {
+  width: 40vw;
+  padding: 5% 3% 5% 3%;
+  margin: 5% 3% 5% 3%;
+}
+
+#send-btn {
+  text-align: left;
+  margin-top: 5vh;
+  margin-left: 5%;
+  width: 10vw;
+}
+
+.footer-container > div {
+  flex: 1;
+  padding: 5% 5% 5% 5%;
+  color: white;
+}
+
+hr {
+  margin: 3% 4% 3% 3%;
+}
+.bottom-contact-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 4% 4% 4%;
+  color: white;
+}
+
+.bottom-contact-box a {
+  color: gray;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.bottom-contact-box a:hover {
+  color: white;
+}
+.bottom-contact-box a:visited {
+  color: gray;
+}
