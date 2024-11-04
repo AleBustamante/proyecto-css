@@ -1,3 +1,218 @@
 body {
   margin: 0;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 250;
+  line-height: 1.7;
+}
+
+.top-menu {
+  list-style-type: none;
+  width: 90vw;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  color: white;
+  font-size: 1rem;
+  z-index: 2;
+  padding-top: 1%;
+}
+.top-menu-element {
+  padding: 1% 1% 1% 1%;
+}
+
+.top-nav a {
+  color: gray;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+  color: white;
+}
+.top-nav a:visited {
+  color: gray;
+}
+
+.top-logo {
+  width: 90vw;
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 1rem;
+  z-index: 2;
+  padding-top: 3%;
+  padding-left: 4%;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  color: white;
+  font-size: 2rem;
+  z-index: 2;
+  text-align: left;
+  padding-left: 5%;
+}
+.background-1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-1-video1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.split-section {
+  display: flex;
+  justify-content: center;
+}
+
+.split-section > div {
+  flex: 1;
+  padding: 5% 5% 5% 5%;
+  color: white;
+}
+.split-left img {
+  max-width: 40vw;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 5% 5% 5%;
+}
+
+.service-box img {
+  max-width: 25vw;
+}
+.service-box h2 {
+  text-align: center;
+  padding-top: 7%;
+}
+
+.service-element {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.promotional-video {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.promotional-video video {
+  width: 75vw;
+  height: auto;
+  object-fit: cover;
+}
+.products-display {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100vw;
+  padding: 5% 5% 5% 5%;
+}
+.products-display img {
+  max-width: 30vw;
+}
+.products-display h2 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.products-display-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-all-btn {
+  text-align: center;
+}
+
+#footer-title {
+  padding-left: 5%;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+.footer-right input {
+  width: 40vw;
+  padding: 5% 3% 5% 3%;
+  margin: 5% 3% 5% 3%;
+}
+
+#send-btn {
+  text-align: left;
+  margin-top: 5vh;
+  margin-left: 5%;
+  width: 10vw;
+}
+
+.footer-container > div {
+  flex: 1;
+  padding: 5% 5% 5% 5%;
+  color: white;
 }
