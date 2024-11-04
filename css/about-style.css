@@ -87,119 +87,67 @@ p {
 .top-logo a:visited {
   color: white;
 }
-.overlay-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-100%, -50%);
-  color: white;
-  font-size: 2rem;
-  z-index: 2;
-  text-align: left;
-  padding-left: 5%;
-}
-.background-1 {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
 
-.background-1-video1 {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
 .split-section {
   display: flex;
   justify-content: center;
+  padding-top: 18vh;
 }
 
 .split-section > div {
   flex: 1;
-  padding: 5% 5% 5% 5%;
+  padding: 5% 3% 5% 3%;
   color: white;
 }
 .split-left img {
   max-width: 40vw;
 }
-
-.service-box {
+.split-right {
   display: flex;
   flex-direction: column;
-  color: white;
-  justify-content: center;
+}
+#more-info-btn {
+  padding-top: 6%;
 }
 
-.service-list {
+.statistics-block {
+  display: flex;
+  flex-direction: column;
+}
+.statics-block-header {
+  text-align: center;
+  margin: 2% 18% 5% 18%;
+}
+.statistics-block-list {
   display: flex;
   flex-direction: row;
-  padding: 5% 5% 5% 5%;
 }
-
-.service-box img {
-  max-width: 25vw;
-}
-.service-box h2 {
+.statistics-block-list div {
+  font-weight: 800;
+  color: #97c584;
   text-align: center;
-  padding-top: 7%;
+}
+.statistics-block-list-element {
+  max-width: 30vw;
 }
 
-.service-element {
+.split-section2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.split-section2 > div {
+  flex: 1;
+  padding: 5% 3% 5% 3%;
+}
+.split-right2 {
   display: flex;
   flex-direction: column;
-  padding-left: 3%;
-  padding-right: 3%;
 }
-
-.promotional-video {
-  display: flex;
-  justify-content: flex-end;
-  width: 100vw;
-  overflow: hidden;
-}
-
-.promotional-video video {
-  width: 75vw;
-  height: auto;
-  object-fit: cover;
-}
-.products-display {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  width: 100vw;
-  padding: 5% 1% 5% 1%;
-}
-.products-display img {
-  max-width: 26vw;
-}
-.products-display h2 {
-  text-align: center;
+.split-right2 img {
+  max-width: 50vw;
   padding-bottom: 5%;
-}
-.products-display-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.product-display-element {
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-.list-all-btn {
-  text-align: center;
 }
 
 #footer-title {
