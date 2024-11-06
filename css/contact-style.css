@@ -165,3 +165,146 @@ hr {
 .bottom-contact-box a:visited {
   color: gray;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .top-menu {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding-top: 3vh;
+    padding-left: 0vw;
+  }
+
+  .top-logo {
+    width: 100%;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-top: 8vh;
+    padding-left: 0vw;
+  }
+
+  .overlay-content {
+    font-size: 1.5rem;
+    padding-left: 10%;
+  }
+
+  .overlay-content {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+
+  .top-menu-element {
+    padding: 1% 2% 1% 2%;
+  }
+
+  .split-section {
+    flex-direction: column;
+  }
+
+  .split-section > div {
+    flex: auto;
+    width: 80%;
+    padding: 0% 5% 0% 5%;
+  }
+
+  .split-left img {
+    max-width: 100%;
+  }
+
+  .service-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-element {
+    padding: 5% 0% 5% 0%;
+  }
+
+  .service-box img {
+    max-width: 90vw;
+  }
+
+  .promotional-video {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .promotional-video video {
+    width: 100%;
+    height: auto;
+  }
+
+  .products-display img {
+    max-width: 90vw;
+  }
+
+  .footer-right input {
+    width: 80vw;
+  }
+
+  #send-btn {
+    width: 30vw;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-left,
+  .footer-right {
+    flex: 1;
+  }
+
+  .footer-right input {
+    width: 80vw;
+  }
+
+  #send-btn {
+    width: 30vw;
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+
+  .split-section2 {
+    flex-direction: column;
+  }
+
+  .split-right2 img {
+    max-width: 100%;
+  }
+
+  .statistics-block-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statistics-block-list-element {
+    max-width: 100%;
+    padding: 5% 0% 5% 0%;
+  }
+  .bottom-video {
+    width: 100%;
+  }
+
+  nav {
+    padding-bottom: 15vh;
+  }
+}
